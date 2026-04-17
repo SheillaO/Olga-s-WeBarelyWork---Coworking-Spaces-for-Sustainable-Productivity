@@ -44,3 +44,26 @@ nav ul {
     color: var(--orange);
     font-weight: 600;
 }
+.align-right {
+    margin-left: auto;
+}
+
+.nav-item {
+    color: var(--cream);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-item:hover {
+    color: var(--orange);
+}
+
+.nav-btn {
+    background: var(--rose);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
