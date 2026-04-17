@@ -201,22 +201,21 @@ This isn't a portfolio piece pretending to be a product. It's a product using a 
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
 webarelywork/
 │
-├── index.html          # Marketing page (SEO-optimized)
-├── index.css           # Design system (300+ lines)
-├── index.js            # Analytics + interactions (150 lines)
+├── index.html        # Marketing page (SEO-optimized)
+├── index.css         # Design system
+├── index.js          # Interactions + analytics
 │
 ├── images/
-│   ├── hygge.jpg       # Location photography
+│   ├── hygge.jpg
 │   ├── sky-garden.jpg
 │   └── generator.jpg
 │
-├── README.md           # This file
-└── LICENSE             # MIT (open for contributions)
-
----
+├── README.md
+└── LICENSE
 
 ## 🚀 Run Locally
 
