@@ -262,3 +262,27 @@ main {
     padding-top: 20px;
     border-top: 1px solid #eee;
 }
+.price {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--olive);
+}
+
+.price-note {
+    font-size: 12px;
+    color: #999;
+}
+
+.btn-primary {
+    background: var(--rose);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: var(--brandy);
+}
