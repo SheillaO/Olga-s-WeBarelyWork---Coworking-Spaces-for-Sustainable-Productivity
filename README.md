@@ -202,3 +202,16 @@ This isn't a portfolio piece pretending to be a product. It's a product using a 
 ---
 
 ## 📂 Project Structure
+webarelywork/
+│
+├── index.html          # Marketing page (SEO-optimized)
+├── index.css           # Design system (300+ lines)
+├── index.js            # Analytics + interactions (150 lines)
+│
+├── images/
+│   ├── hygge.jpg       # Location photography
+│   ├── sky-garden.jpg
+│   └── generator.jpg
+│
+├── README.md           # This file
+└── LICENSE             # MIT (open for contributions)
