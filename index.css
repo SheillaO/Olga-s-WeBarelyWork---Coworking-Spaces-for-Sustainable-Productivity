@@ -220,3 +220,45 @@ main {
     justify-content: space-between;
     margin-bottom: 15px;
 }
+.location-header h3 {
+    font-size: 22px;
+    color: var(--olive);
+}
+
+.location-tag {
+    background: var(--cream);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.location-desc {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.location-features {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-tag {
+    background: var(--cream);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: var(--olive);
+}
+
+.cta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
