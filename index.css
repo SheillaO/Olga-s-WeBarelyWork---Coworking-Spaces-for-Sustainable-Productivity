@@ -116,3 +116,107 @@ h1 .accent {
     color: var(--cream);
     opacity: 0.8;
 }
+.problem-section {
+    padding: 80px 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.problem-section h2 {
+    font-size: 36px;
+    color: var(--olive);
+    margin-bottom: 50px;
+}
+
+.problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.problem-card {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.problem-emoji {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.problem-card h3 {
+    font-size: 18px;
+    color: var(--olive);
+    margin-bottom: 10px;
+}
+
+.problem-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.locations-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.locations-intro h2 {
+    font-size: 36px;
+    color: var(--olive);
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+.item {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.item-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.img-banner {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: var(--orange);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.img-banner.exclusive {
+    background: var(--rose);
+}
+
+.content-card {
+    padding: 30px;
+}
+
+.location-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
